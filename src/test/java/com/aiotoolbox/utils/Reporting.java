@@ -17,7 +17,7 @@ public class Reporting {
 		List<String> jsonFiles = new ArrayList<String>();
 		String buildNumber = "1";
 		String projectName = "All-In-One Toolbox";
-		boolean runWithJenkins = false;
+		boolean runWithJenkins = true;
 		boolean parallelTesting = false;
 		Configuration configuration = new Configuration(reportOutputDirectory, projectName);
 		//jsonFiles.add("reports/json/result1.json");
