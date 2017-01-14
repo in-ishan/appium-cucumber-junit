@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="100.03505">
+<testcase classname="Boost" name="Boost feature should clear unused app data from RAM" time="7.795035">
+<system-out><![CDATA[Given user is on boost page.................................................passed
+When user clicked on boost button...........................................passed
+Then user should get message system performance is boost....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Clean" name="Clean feature should clear unused app data from RAM" time="19.399521">
+<system-out><![CDATA[Given user is on clean page.................................................passed
+When user clicked on clean button...........................................passed
+Then user should get message system performance is improved.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Batch Uninstall" name="Batch uninstall" time="32.554481">
+<system-out><![CDATA[Given user is on batch uninstall page.......................................passed
+When user select below apps.................................................passed
+And click on uninstall selected button......................................passed
+And accept all confirmations................................................passed
+Then user get uninstall finished message....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Batch Uninstall" name="Batch uninstall number of apps selected count" time="40.286013">
+<system-out><![CDATA[Given user is on batch uninstall page.......................................passed
+When user select below apps.................................................passed
+Then number of apps selected count is displayed on the uninstall selected button.passed
+]]></system-out>
+</testcase>
+</testsuite>

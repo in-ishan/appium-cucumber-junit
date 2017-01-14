@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.aiotoolbox.cucumberOptions.RunCukeTests
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 100.687 sec - in com.aiotoolbox.cucumberOptions.RunCukeTests

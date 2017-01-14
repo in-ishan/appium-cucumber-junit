@@ -1,0 +1,424 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: ishan.s@outlook.com"
+      },
+      {
+        "line": 2,
+        "value": "#Created on: January 13, 2017"
+      },
+      {
+        "line": 3,
+        "value": "#Summary: This feature file describes the \u0027Boost\u0027 feature of \u0027All-In-One Toolbox\u0027 app."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Boost feature should clear unused app data from RAM",
+        "description": "",
+        "id": "boost;boost-feature-should-clear-unused-app-data-from-ram",
+        "after": [
+          {
+            "result": {
+              "duration": 5346949540,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.backToMainPage()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3199392590,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on boost page",
+            "match": {
+              "location": "BoostStepDefs.user_is_on_boost_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24522,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicked on boost button",
+            "match": {
+              "location": "BoostStepDefs.user_clicked_on_boost_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18128,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get message system performance is boost",
+            "match": {
+              "location": "BoostStepDefs.user_should_get_message_system_performance_is_boost()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Boost",
+    "description": "User should able to improve system performance by using boost feature.",
+    "id": "boost",
+    "keyword": "Feature",
+    "uri": "boost.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@boost"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: ishan.s@outlook.com"
+      },
+      {
+        "line": 2,
+        "value": "#Created on: January 12, 2017"
+      },
+      {
+        "line": 3,
+        "value": "#Summary: This feature file describes the \u0027Clean\u0027 feature of \u0027All-In-One Toolbox\u0027 app."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Clean feature should clear unused app data from RAM",
+        "description": "",
+        "id": "clean;clean-feature-should-clear-unused-app-data-from-ram",
+        "after": [
+          {
+            "result": {
+              "duration": 7082238083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.backToMainPage()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2013128001,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on clean page",
+            "match": {
+              "location": "CleanStepDefs.user_is_on_boost_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10519479437,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicked on clean button",
+            "match": {
+              "location": "CleanStepDefs.user_clicked_on_boost_selected_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38190,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get message system performance is improved",
+            "match": {
+              "location": "CleanStepDefs.user_should_get_message_system_performance_is_improved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Clean",
+    "description": "User should able to improve system performance by using \u0027Clean\u0027 feature.",
+    "id": "clean",
+    "keyword": "Feature",
+    "uri": "clean.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@clean"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: ishan.s@outlook.com"
+      },
+      {
+        "line": 2,
+        "value": "#Creation date: December 30, 2016"
+      },
+      {
+        "line": 3,
+        "value": "#Summary: This feature file depicts the \u0027Batch Uninstall\u0027 feature of the \u0027All In One Toolbox\u0027 app with concrete scenarios describing feature behavior."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Batch uninstall",
+        "description": "",
+        "id": "batch-uninstall;batch-uninstall",
+        "after": [
+          {
+            "result": {
+              "duration": 3351093744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.backToToolboxPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 449710835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.backToMainPage()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3563583540,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on batch uninstall page",
+            "match": {
+              "location": "BatchUninstallStepDefs.user_is_on_batch_uninstall_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40851661095,
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 34.56 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027i-system-2.local\u0027, ip: \u0027192.168.0.101\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.1\u0027, java.version: \u00271.8.0_112\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage\u003dimoblife.toolbox.full, networkConnectionEnabled\u003dtrue, warnings\u003d{}, databaseEnabled\u003dfalse, deviceName\u003d5d998f31, platform\u003dLINUX, deviceUDID\u003d5d998f31, appActivity\u003dimoblife.toolbox.full.AMain2, desired\u003d{appPackage\u003dimoblife.toolbox.full, appActivity\u003dimoblife.toolbox.full.AMain2, newCommandTimeout\u003d60, platformVersion\u003d6.0.1, platformName\u003dAndroid, deviceName\u003dRedmi Note 3}, newCommandTimeout\u003d60, platformVersion\u003d6.0.1, webStorageEnabled\u003dfalse, locationContextEnabled\u003dfalse, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dAndroid}]\nSession ID: e851000d-1b2c-4f4d-a9f5-da6490558782\n*** Element info: {Using\u003d-android uiautomator, value\u003dnew UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().className(\"android.widget.LinearLayout\").childSelector(new UiSelector().text(\"PumpCurves\")))}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\n\tat io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:33)\n\tat io.appium.java_client.MobileElement.execute(MobileElement.java:1)\n\tat io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:198)\n\tat io.appium.java_client.DefaultGenericMobileElement.findElement(DefaultGenericMobileElement.java:49)\n\tat io.appium.java_client.MobileElement.findElement(MobileElement.java:1)\n\tat io.appium.java_client.android.AndroidElement.findElement(AndroidElement.java:1)\n\tat io.appium.java_client.android.AndroidElement.findElementByAndroidUIAutomator(AndroidElement.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:39)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:58)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.findElementByAndroidUIAutomator(\u003cgenerated\u003e)\n\tat com.aiotoolbox.pages.android.toolbox.BatchUninstallPage.selectApp(BatchUninstallPage.java:41)\n\tat com.aiotoolbox.glueCode.toolbox.BatchUninstallStepDefs.user_selected_below_apps(BatchUninstallStepDefs.java:45)\n\tat ✽.When user select below apps(toolbox/batch_uninstall.feature:16)\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "user select below apps",
+            "match": {
+              "location": "BatchUninstallStepDefs.user_selected_below_apps(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "App Name"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "PumpCurves"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Selenium Tutorial"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "click on uninstall selected button",
+            "match": {
+              "location": "BatchUninstallStepDefs.click_on_uninstall_selected_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "accept all confirmations",
+            "match": {
+              "location": "BatchUninstallStepDefs.accept_all_confirmations()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user get uninstall finished message",
+            "match": {
+              "location": "BatchUninstallStepDefs.user_get_uninstall_finished_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Batch uninstall number of apps selected count",
+        "description": "",
+        "id": "batch-uninstall;batch-uninstall-number-of-apps-selected-count",
+        "after": [
+          {
+            "result": {
+              "duration": 3456344155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.backToToolboxPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 414747585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.backToMainPage()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3626120280,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is on batch uninstall page",
+            "match": {
+              "location": "BatchUninstallStepDefs.user_is_on_batch_uninstall_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18019307910,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user select below apps",
+            "match": {
+              "location": "BatchUninstallStepDefs.user_selected_below_apps(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "App Name"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "Google Hindi Input"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "mab"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109045495,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "number of apps selected count is displayed on the uninstall selected button",
+            "match": {
+              "location": "BatchUninstallStepDefs.number_of_apps_selected_count_is_displayed_on_the_uninstall_selected_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Batch Uninstall",
+    "description": "User should able to uninstall multiple apps in one go\nUser should able to search an app by name\nBy default apps in batch uninstall page should be sorted by name\nUser should able to sort apps by size or install time in batch uninstall page\nHeader of batch uninstall page should show number of apps currently installed and total space occupied by those",
+    "id": "batch-uninstall",
+    "keyword": "Feature",
+    "uri": "toolbox/batch_uninstall.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@batch_uninstall"
+      }
+    ]
+  }
+]
